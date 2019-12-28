@@ -13,3 +13,10 @@ Literally just a "hello" program which also declares a `double`, compiled. I gue
 When: June 2019
 
 `.bash_history` stats: creates a [Bokeh](https://bokeh.org/) chart of most used commands (crude splitting but useful)
+
+![bash_history.png](bash_history.png)
+
+# mtt
+When: June 2019
+
+[Mind the Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/) stats: only prints total time in browser, and opens an empty [Bokeh](https://bokeh.org/) graph.
