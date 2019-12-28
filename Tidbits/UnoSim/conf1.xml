@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<game-config>
+	<players>
+		<player>Aneurin</player>
+		<player>Muhammad</player>
+		<player>DJohn</player>
+	</players>
+	<deck-config>
+		<id0>2</id0>
+		<default/>
+	</deck-config>
+	<player-config>
+		<cards-at-start>7</cards-at-start>
+	</player-config>
+</game-config>

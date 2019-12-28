@@ -1,0 +1,6 @@
+CREATE TABLE cache (
+	id INT NOT NULL
+	anagram VARCHAR(30) NOT NULL,
+	solution VARCHAR(30) NOT NULL,
+	PRIMARY KEY (id)
+)

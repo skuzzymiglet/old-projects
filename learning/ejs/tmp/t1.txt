@@ -1,0 +1,10 @@
+
+    let script = SCRIPTS.filter(x => x.name == scriptName);
+    //console.log(SCRIPTS);
+    console.log("yak", script.ranges);
+    script.ranges.forEach( i=> {
+        if(c.charCodeAt(0) >= i[0] && c.charCodeAt(0) <= i[1]){
+            return true;
+        }
+    });
+    return false;

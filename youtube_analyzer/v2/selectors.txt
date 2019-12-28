@@ -1,0 +1,9 @@
+select all divs
+(XPath) I N T E R E S T I N G
+extract:                                dict key:   xpath:
+==========================================================
+    ids                                 id          //div[]
+    all <a>s with "watch" in href       title       //div/a[contains(@href, 'watch')]
+    all <a>s with "channel" in href     channel     //div/a[contains(@href, 'channel')]
+    *  ~ a:last-of-type (date + time)   datetime    //div[contains(., 'GMT')]/text()
+    above's week of year                week        ^ to unix timestamp > calculate week o' year

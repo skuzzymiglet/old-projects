@@ -1,0 +1,50 @@
+1. Extract all data into a .json (reporting if data not present): chronological order (2016-19 etc):
+	vid_title
+	vid_href
+	channel
+	channel_href
+	timestamp
+
+(extract.py > data.json)
+
+2. V2 PIE CHART:
+	1. What we need:
+		channel_title
+		timestamp
+	(get that)
+
+	2. Format timestamp to MM/YYYY
+	
+	3. Generate chcolors
+	
+	4. Add channel's chcolor to data	 
+	
+	5. Extract all 25-video batches, step = 1 vid, eg:
+	(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25),  (2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26)
+	
+	6. For each batch, make chart:
+		no %S
+		generate dict for how many videos of a channel
+		sort ^ dict by the values (so chart is more legible)
+		title: earliest-latest vid's month + year
+		create pie
+		save as chart0001, chart0002 etc.
+		
+	7. Then we'll make a bash script
+	
+	FUNCTIONS (as many as posssible):
+	gen_chcolors(data) (returns data w/ chcolors)
+	create_batches(data) (returns batches)
+	gen_chdict(batch) (return {"channel": 5} etc)
+	title(batch)
+	main (duuuuuuh!)
+
+3. Static Chart:
+	1. What we need:
+		EVERYTHING
+	2. FILES:
+		index.html
+		chart.js
+		(d3.js)
+		style.css
+	3. 

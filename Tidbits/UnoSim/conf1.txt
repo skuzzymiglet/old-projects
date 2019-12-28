@@ -1,0 +1,3 @@
+cards-per-player : 8
+players: Muhammad, Aneurin, Derek
+

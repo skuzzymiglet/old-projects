@@ -1,0 +1,11 @@
+batch > pie
+for each pie:
+    dict
+        title
+        channels:
+            color
+            slice_size
+
+values = [{"labels": [x, y, z]}, {}] etc...
+
+

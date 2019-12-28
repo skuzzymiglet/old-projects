@@ -1,0 +1,7 @@
+ What to send to server on search:
+ {
+ 
+ search_verif: the search term (for verification)
+ entries: {term: score}
+ 
+ }

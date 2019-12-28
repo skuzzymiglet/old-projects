@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=ShowCards()
+comment2.params=id
+comment2.target=javax.swing.ImageIcon\ showCard(int)
+comment3.params=id
+comment3.target=void\ show(int)
+comment4.params=
+comment4.target=void\ showNextCard()
+numComments=5

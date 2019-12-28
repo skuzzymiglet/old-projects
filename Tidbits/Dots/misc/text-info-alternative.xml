@@ -1,0 +1,12 @@
+<text-info>
+	<text type="blackboard-title">
+		<color>White</color>
+		<font styling="bold">Droid Sans</font>
+		<size>36</size>
+	</text>
+	<text type="blackboard-heading-1">
+		<color>White</color>
+		<font styling="">DejaVu Sans</font>
+		<size>24</size>
+	</text>
+</text-info>

@@ -1,0 +1,2 @@
+https://www.google.com/search?client=firefox-b-ab&q=LXML+vs+Amara+vs+libxml2+vs+ElementTree+vs+py-dom-xpath+vs+PyXML+vs+parsel
+https://lxml.de/tutorial.html#using-xpath-to-find-text

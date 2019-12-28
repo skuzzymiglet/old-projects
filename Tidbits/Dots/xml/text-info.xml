@@ -1,0 +1,5 @@
+<text-info>
+	<text type="splashscreen-title" color="153,0,153" font="3Dumb" size="64"></text>
+	<text type="splashscreen-heading-1" color="0,51,102" font="3Dumb" size="32"></text>
+	<text type="plain" color="255,0,0" font="3Dumb" size="48"></text>
+</text-info>

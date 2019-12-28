@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS users
+(
+	id INT UNSIGNED NOT NULL 	AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	password VARCHAR(40) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	profile_img_path VARCHAR(1024) NOT NULL,
+	description TEXT,
+	total_internet_time INT	DEFAULT -2147483648 NULL,
+	UNIQUE(name),
+	UNIQUE(email),
+	PRIMARY KEY(id)
+);
+

@@ -1,0 +1,1 @@
+public enum GameFlag {NEXT_MISS, NEXT_TAKE_TWO, NEXT_TAKE_FOUR, PLAY_TWICE, NONE;}

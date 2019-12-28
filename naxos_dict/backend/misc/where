@@ -1,0 +1,20 @@
+Pages:
+
+https://www.naxos.com/education/glossary.asp#A-C
+https://www.naxos.com/education/glossary.asp#D-F
+https://www.naxos.com/education/glossary.asp#G-I
+https://www.naxos.com/education/glossary.asp#J-L
+https://www.naxos.com/education/glossary.asp#M-O
+https://www.naxos.com/education/glossary.asp#P-R
+https://www.naxos.com/education/glossary.asp#S-U
+https://www.naxos.com/education/glossary.asp#V-X
+https://www.naxos.com/education/glossary.asp#Y-Z
+
+LOCATION:
+
+On each of the above pages >>
+All <a> contained within the <table> (glossary.asp, line 605 - 777) >>
+On the href attribute of those >> format to web link (not internal file) >>
+<b> : title in db
+<span.style5>: definition in db
+

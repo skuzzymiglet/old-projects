@@ -1,0 +1,14 @@
+Store: 
+scrambles
+solutions
+
+How it will work:
+
+1 The anagram solver will atempt to solve a unique sequence of letters*
+* erb and erba would be different, erb and ber the same
+
+2 It takes all scrambles of that (obtained in output) and adds them to the "scrambles" column in the DB
+
+3 It puts all the solutions in the other column
+
+4 When someone searches for their anagram, the computer searches the DB for solutions

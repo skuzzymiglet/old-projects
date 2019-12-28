@@ -1,0 +1,26 @@
+Users
+	ID
+	Name
+	Password
+	Email adress
+	Profile Image
+	Description
+	Reached
+	Total Internet Time
+	Likes
+	Dislikes
+Notices
+Images
+Flags
+Badges
+	IssueID
+	User ID
+	Badge ID
+Badge Reference
+	ID
+	Title
+	Level
+Likes
+Dislikes
+Reachings
+Susipicions

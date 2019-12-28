@@ -1,0 +1,15 @@
+by video (what we have)
+
+[{"mu": 6, "du": 990}, {...}...]
+
+by week
+
+{"W3 2011": [videos], "W4 2011": ...}
+
+bars
+
+[{week: "W3 2011", vid0: {video}}]
+
+bars (refined AF)
+
+[{week: "W3 2011", (channel id): 2, (channel id): 45}]

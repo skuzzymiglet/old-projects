@@ -1,0 +1,16 @@
+YouHistoryPie (new name)
+
+1. Recode (?use real css selectors)
+2. Title to each pie: month we're in (and year)
+3. No %s on pie chart
+4. Sort slices biggest to smallest for legibility
+5. Rethink FPS
+6. Chart pngs ~0006 not ~6 and so forth
+7?. Remove single watches for a channel within each space of 25 videos before creating chart data for each 25 
+8. Create bash script:
+    given a takeout .zip or .tar.gz
+    extract the youtube watch history file only
+    run the script and create the charts in /tmp/yhp/charts
+    make a timelapse given a speed from 1 to 10 (ffmpeg)
+
+? = not really

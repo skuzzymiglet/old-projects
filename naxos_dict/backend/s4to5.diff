@@ -1,0 +1,25 @@
+--- search4.py	2019-05-05 09:44:01.031748727 +0100
++++ search5.py	2019-05-05 09:44:01.031748727 +0100
+@@ -1,7 +1,12 @@
+-import json, re, itertools, time
+-from statistics import mean
++#!/usr/bin/python3
++# -*- coding: UTF-8 -*-# enable debugging
+ 
+-search_term = "der"
++import json, re, itertools, time, cgi, cgitb
++
++cgitb.enable()
++
++data = cgi.FieldStorage()
++search_term = data.getvalue("search_term")
+ 
+ glossary = open("glossary_dump.json", "r")
+ glossary_dict = json.loads(glossary.read())
+@@ -86,4 +91,6 @@
+ 
+ response["time"] = end - start
+ 
++print("Content-Type: text/json;charset=utf-8")
+ print(response)
++

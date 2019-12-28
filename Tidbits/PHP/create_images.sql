@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS images
+(
+	id INT UNSIGNED NOT NULL 	AUTO_INCREMENT,
+	user_id INT UNSIGNED NOT NULL,
+	title TEXT NOT NULL,
+	img_path VARCHAR(512) NOT NULL,
+	posted TIMESTAMP NOT NULL,
+	locked BIT DEFAULT 1 NULL,
+	unlock_time DATETIME,
+	obliterated BIT DEFAULT 0 NULL,
+	obliterate_time DATETIME,
+	internet_time INT UNSIGNED,
+	PRIMARY KEY(id),
+	UNIQUE(img_path)
+);

@@ -1,0 +1,14 @@
+hero
+{
+    display: flex;
+    align-items: center;
+}
+.hero-img
+{
+    width: 135px;
+    height: 129px; 
+}
+.hero-text
+{
+    text-align: center;
+}

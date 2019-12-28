@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=file
+comment0.target=GameConfiguration(java.lang.String)
+comment1.params=bis
+comment1.target=java.lang.String[]\ lines(java.io.BufferedInputStream)
+comment2.params=lines
+comment2.target=java.lang.String[][]\ properties(java.lang.String[])
+numComments=3

@@ -1,0 +1,113 @@
+========================================
+Welcome to jUNO - Java UNO!
+Top of deck = FOURBLUE
+========================================= Move #1 =========================================
+1
+Asyn has cards MISSBLUE, FOURBLUE, ONEORANGE, NINEORANGE, THREEGREEN, NINEGREEN, EIGHTORANGE, 
+false
+Move = MISSBLUE
+========================================= Move #2 =========================================
+0
+Aneurin has cards THREERED, EIGHTGREEN, THREERED, ZEROBLUE, SEVENRED, ONERED, EIGHTBLUE, 
+false
+Move = EIGHTBLUE
+========================================= Move #3 =========================================
+1
+Asyn has cards FOURBLUE, ONEORANGE, NINEORANGE, THREEGREEN, NINEGREEN, EIGHTORANGE, 
+false
+Move = FOURBLUE
+========================================= Move #4 =========================================
+0
+Aneurin has cards THREERED, EIGHTGREEN, THREERED, ZEROBLUE, SEVENRED, ONERED, 
+false
+Move = ZEROBLUE
+========================================= Move #5 =========================================
+1
+Asyn has cards ONEORANGE, NINEORANGE, THREEGREEN, NINEGREEN, EIGHTORANGE, 
+false
+Move = null
+========================================= Move #6 =========================================
+0
+Aneurin has cards THREERED, EIGHTGREEN, THREERED, SEVENRED, ONERED, 
+false
+Move = null
+========================================= Move #7 =========================================
+1
+Asyn has cards ONEORANGE, NINEORANGE, THREEGREEN, NINEGREEN, EIGHTORANGE, FOURBLUE, 
+false
+Move = FOURBLUE
+========================================= Move #8 =========================================
+0
+Aneurin has cards THREERED, EIGHTGREEN, THREERED, SEVENRED, ONERED, THREEBLUE, 
+false
+Move = THREEBLUE
+========================================= Move #9 =========================================
+1
+Asyn has cards ONEORANGE, NINEORANGE, THREEGREEN, NINEGREEN, EIGHTORANGE, 
+false
+Move = THREEGREEN
+========================================= Move #10 =========================================
+0
+Aneurin has cards THREERED, EIGHTGREEN, THREERED, SEVENRED, ONERED, 
+false
+Move = EIGHTGREEN
+========================================= Move #11 =========================================
+1
+Asyn has cards ONEORANGE, NINEORANGE, NINEGREEN, EIGHTORANGE, 
+false
+Move = NINEGREEN
+========================================= Move #12 =========================================
+0
+Aneurin has cards THREERED, THREERED, SEVENRED, ONERED, 
+false
+Move = null
+========================================= Move #13 =========================================
+1
+Asyn has cards ONEORANGE, NINEORANGE, EIGHTORANGE, 
+false
+Move = NINEORANGE
+========================================= Move #14 =========================================
+0
+Aneurin has cards THREERED, THREERED, SEVENRED, ONERED, FOURORANGE, 
+false
+Move = FOURORANGE
+========================================= Move #15 =========================================
+1
+Asyn has cards ONEORANGE, EIGHTORANGE, 
+false
+Move = ONEORANGE
+========================================= Move #16 =========================================
+0
+Aneurin has cards THREERED, THREERED, SEVENRED, ONERED, 
+false
+Move = ONERED
+========================================= Move #17 =========================================
+1
+Asyn has cards EIGHTORANGE, 
+false
+Move = null
+========================================= Move #18 =========================================
+0
+Aneurin has cards THREERED, THREERED, SEVENRED, 
+false
+Move = SEVENRED
+========================================= Move #19 =========================================
+1
+Asyn has cards EIGHTORANGE, REVERSEGREEN, 
+false
+Move = null
+========================================= Move #20 =========================================
+0
+Aneurin has cards THREERED, THREERED, 
+false
+Move = THREERED
+========================================= Move #21 =========================================
+1
+Asyn has cards EIGHTORANGE, REVERSEGREEN, SIXRED, 
+false
+Move = SIXRED
+========================================= Move #22 =========================================
+0
+Aneurin has cards THREERED, 
+false
+Move = THREERED

@@ -1,0 +1,126 @@
+<!--Force IE6 into quirks mode with this comment tag-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Welcome to jUNO</title>
+		<style type="text/css">
+
+			body{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			}
+
+			#framecontentLeft, #framecontentTop{
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			width: 200px; /*Width of left frame div*/
+			height: 100%;
+			overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+			background-color: orange;
+			color: white;
+			}
+
+			#framecontentTop{ 
+			left: 200px; /*Set left value to WidthOfLeftFrameDiv*/
+			right: 0;
+			width: auto;
+			height: 120px; /*Height of top frame div*/
+			overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+			background-color: orange;
+			color: ;
+			}
+
+			#maincontent{
+			position: fixed; 
+			left: 200px; /*Set left value to WidthOfLeftFrameDiv*/
+			top: 120px; /*Set top value to HeightOfTopFrameDiv*/
+			right: 0;
+			bottom: 0;
+			overflow: auto; 
+			background: #fff;
+			}
+
+			.innertube{
+			margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+			}
+			
+			nav > a
+			{
+				color: red;
+			}
+			nav > a:hover
+			{
+				color: white;
+			}
+
+			* html body{ /*IE6 hack*/
+			padding: 120px 0 0 200px; /*Set value to (HeightOfTopFrameDiv 0 0 WidthOfLeftFrameDiv)*/
+			}
+
+			* html #maincontent{ /*IE6 hack*/
+			height: 100%; 
+			width: 100%; 
+			}
+
+			* html #framecontentTop{ /*IE6 hack*/
+			width: 100%;
+			}
+			
+			h1
+			{
+				text-align: center;
+			}
+			p
+			{
+				text-width: 
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="framecontentLeft">
+			<nav class="innertube">
+
+				<h3>Navigation</h3>
+				<a href="#">Play a game</a><br/>
+				&nbsp <a href="#">V1</a><br/>
+				&nbsp <a href="#">V2</a><br/>
+				&nbsp <a href="#">V3</a><br/>
+				&nbsp <a href="#">V4</a><br/>
+
+			</nav>
+		</div>
+
+		<div id="framecontentTop">
+			<div class="innertube">
+
+				<h1>jUNO - Java Uno</h1>
+				<h3></h3>
+
+			</div>
+		</div>
+
+
+		<div id="maincontent">
+			<div class="innertube">
+
+				<h1>How I made this game</h1>
+				<p>I made this game in Java. It was so legendary, but it was hard</p>
+				<p style="text-align: center">Credits: <a href="http://www.dynamicdrive.com/style/">Dynamic Drive CSS Library</a></p>
+
+			</div>
+		</div>
+
+
+	</body>
+</html>
+-

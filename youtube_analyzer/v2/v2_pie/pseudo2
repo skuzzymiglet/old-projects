@@ -1,0 +1,8 @@
+in: details of 25 vidoes
+out: aligned lists:
+    labels
+    sizes
+    colors
++ title
+
+

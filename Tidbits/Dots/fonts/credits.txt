@@ -1,0 +1,7 @@
+All fonts from fontsquirrel.com
+
+1924.ttf: Freeware License.txt
+carbontype.ttf: Vic Fieger License.txt
+DejaVu fonts: DejaVu Font License.txt
+DJGROSS.ttf: SDFonts Font License.txt
+Droid Sans, Open Sans, Roboto: Apache License.txt
