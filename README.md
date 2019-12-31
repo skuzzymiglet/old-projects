@@ -42,4 +42,32 @@ I tried to make a node program to write sonnets from KJV Bible fragments - tried
 
 ## random_aw
 
+When: 2019
+
+A python script that grabs the [ArchWiki](https://wiki.archlinux.org/) table of contents, searches for links and opens a random one with the `webbrowser` module. You could just visit https://wiki.archlinux.org/index.php/Special:Random though!
+
+## practical
+
+When: 2017 and 2018
+
+Contains some "practical" scripts of mine:
+
+### cpu_load_blinkt.py
+
+When: 2017
+
+A [Blinkt!](https://shop.pimoroni.com/products/blinkt) CPU load indicator for the Raspberry Pi - more LEDs for more CPU load, also coloring:
+
+| Load       | Color
+|------------|--------|
+| 0-37.5%    | Green  |
+| 37.5-62.5% | Orange |
+| 62.5-100%  | Red    |
+
+### py-timer.py
+
+When: 2018
+
+A [pygame](https://www.pygame.org/) program that printed uptime in [3Dumb](https://www.fontsquirrel.com/fonts/3Dumb), a font I used for literally every pygame thing back then.
+
 
