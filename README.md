@@ -70,4 +70,44 @@ When: 2018
 
 A [pygame](https://www.pygame.org/) program that printed uptime in [3Dumb](https://www.fontsquirrel.com/fonts/3Dumb), a font I used for literally every pygame thing back then.
 
+### PYGAME_TEMPLATE/main.py
 
+A pygame template cloned from https://github.com/javiercantero/pygame-templates/blob/master/pygame-template.py
+
+### words.txt
+
+https://github.com/dwyl/english-words
+
+## filez
+
+When: June 2019
+
+Me trying to show my friend how to read files in python
+
+## lenny
+
+When: Late 2019
+
+Was supposed to grab and scrape https://www.lennyfaces.net/ and pipe it all into `dmenu`. Never really caught on cos _unicode issues_ - still has a "pseudo" file though...
+
+## twitter_text
+
+When: June 2019
+
+Me and my friend wanted to print the twitter logo, colored, with binary stuff. We needed to scale for character height to get correct proportions, and it seemed rotated every time
+
+![](screenshot-02_01_20.png)
+
+## naxos_dict
+
+When: Early 2019
+
+In December 2018 I discovered [The Naxos Glossary of Musical Terms](https://www.naxos.com/education/glossary.asp). It's got great content but the website is ugly, unresponsive, and it opens popups for definitions which are often quite short. 
+
+So I decided I needed to reformat the thing myself.
+
+I built a program to download and scrape the site into a python `dict`. Then I needed a backend to read it and respond to HTTP requests, and a simple frontend with a nice AJAX interface. I planned on hosting it on my Raspberry Pi.
+
+### Scraping
+
+It downloaded and scraped the site into `glossary_dump.txt`
